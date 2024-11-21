@@ -1,6 +1,10 @@
-echo "Sai is learning Python"
-echo "Sai is learning DevOps"
-echo "Praveen is also learning DevOps"
-echo "Praveen is also learning Python"
-echo "Suresh is learning Java"
-echo "Suresh is learning Ruby"
+PERSON1=Sai
+PERSON2=Praveen
+PERSON3=Suresh
+
+echo "$PERSON1 is learning Python"
+echo "$PERSON1 is learning DevOps"
+echo "$PERSON2 is also learning DevOps"
+echo "$PERSON2 is also learning Python"
+echo "$PERSON3 is learning Java"
+echo "$PERSON3 is learning Ruby"
