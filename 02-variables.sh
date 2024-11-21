@@ -1,6 +1,6 @@
-PERSON1=Sai
-PERSON2=Praveen
-PERSON3=Suresh
+PERSON1=Bala
+PERSON2=Bunny
+PERSON3=Kiran
 
 echo "$PERSON1 is learning Python"
 echo "$PERSON1 is learning DevOps"
