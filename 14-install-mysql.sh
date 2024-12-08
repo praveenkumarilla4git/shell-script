@@ -14,7 +14,7 @@ yum install git -y
 yum install python -y
 
 
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then 
     echo "ERROR:: Installing git and python are failed"
     exit 1
