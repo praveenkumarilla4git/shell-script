@@ -16,3 +16,12 @@ sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
 sudo yum localinstall -y mysql57-community-release-el7-8.noarch.rpm
 sudo yum install -y mysql-community-server
+
+
+if [ "$?" -ne 0 ]
+then
+    echo "mysql installation is failed"
+    exit 1 # you want to exit
+else
+    echo "mysql installation is success"
+fi
