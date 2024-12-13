@@ -18,6 +18,8 @@ then
     exit 1
 else
     echo "You are root user"
+fi
+
 
 yum install python -y
 
