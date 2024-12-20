@@ -1,6 +1,8 @@
 #!/bin/bash
-
 add() {
-    echo "Sum: $(($1 + $2))"
+    Result=$((2+3))
+    return
 }
-
+add
+ 
+echo "$Result"
